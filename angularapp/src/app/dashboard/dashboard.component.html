@@ -1,0 +1,22 @@
+<h1>Sbook</h1>
+<button class="logout" mat-raised-button color="warn" (click)="logout()">logout</button>
+<br>
+
+
+<button  mat-raised-button color="primary">
+<input type="file" (change)="onFileChange($event)"></button>
+<br>
+
+<mat-card class="example-card">
+    <mat-card-header>
+        <mat-card-title>Picture</mat-card-title>
+        
+      
+    </mat-card-header>
+    <img mat-card-image [src]="abc" >
+    
+    <!-- <mat-card-actions>
+      <button mat-button>LIKE</button>
+      <button mat-button>SHARE</button>
+    </mat-card-actions> -->
+  </mat-card>
